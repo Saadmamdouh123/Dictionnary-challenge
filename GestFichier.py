@@ -1,5 +1,5 @@
 import os
-
+# 1-1
 # folder_path = "C:/Users/Saad/Downloads"
 # liv = os.listdir(folder_path)
 # ti = []
@@ -8,10 +8,14 @@ import os
 # print(ti)
 
 ######################
+# 1-2
+
 # f = open("file.txt", "r")
 
 # print(f.read())
+
 ######################
+# 1-3
 
 # data = data2 = ""
 
@@ -28,7 +32,19 @@ import os
 # with open ('file2.txt', 'w') as fp:
 #     fp.write(data)
 
-print(os.path.exists('C:/Users/Saad/Downloads/pythonlearn.pdf'))
+#################################
+# 1-4
+
+# dara = os.path.exists('C:/Users/Saad/Downloads/pythonlearn.pdf')
+# dara2 = os.path.exists('C:/Users/Saad/Downloads/config.yaml')
+# print(dara)
+# print(dara2)
+
+###############################
+#2
+data3 = open('hello.txt') 
+file_content = data3.read()
+print(file_content)
 
 
 
