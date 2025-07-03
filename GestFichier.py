@@ -42,9 +42,25 @@ import os
 
 ###############################
 #2
-data3 = open('hello.txt') 
-file_content = data3.read()
-print(file_content)
+# data3 = open('hello.txt') 
+# file_content = data3.read()
+# print(file_content)
+
+###############################
+
+#4-1
+# repertoire = "C:/Users/Saad/Documents"
+
+# contenu = os.listdir(repertoire)
+
+# for item in contenu:
+#     print(item)
+
+############################
+# 4 - 2
+import shutil
+p = shutil.copy("C:/Users/Saad/Documents/liv/1/liv1.png", "C:/Users/Saad/Documents/liv/1/liv2.png")
+
 
 
 
